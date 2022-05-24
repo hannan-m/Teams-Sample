@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "version": "1.0.0",
+  "id": "8f156004-d68c-430f-b5e7-89fd48754484",
+  "packageName": "om.sc.demo",
+  "developer": {
+    "name": "Test",
+    "websiteUrl": "https://275c-58-65-145-102.ap.ngrok.io",
+    "privacyUrl": "",
+    "termsOfUseUrl": ""
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "CS-DEMO",
+    "full": "Command Centre Demo"
+  },
+  "description": {
+    "short": "This is a sample",
+    "full": "This is a sample"
+  },
+  "accentColor": "#FFFFFF",
+  "staticTabs": [
+    {
+      "entityId": "cs-demo-home",
+      "name": "Home",
+      "contentUrl": "https://275c-58-65-145-102.ap.ngrok.io",
+      "websiteUrl": "https://275c-58-65-145-102.ap.ngrok.io",
+      "scopes": [
+        "personal"
+      ]
+    },
+    {
+      "entityId": "about",
+      "scopes": [
+        "personal"
+      ]
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [
+    "275c-58-65-145-102.ap.ngrok.io"
+  ]
+}
